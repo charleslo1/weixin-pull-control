@@ -2,7 +2,8 @@
 
 > 微信下拉控制，禁用&启用微信下拉效果，如下图所示。
 
-![微信下拉截屏](./docs/img/weixin-pull.jpg =100x100)
+![微信下拉截屏](./docs/img/weixin-default.jpg)
+![微信下拉截屏](./docs/img/weixin-pull.jpg)
 
 # Api
 
