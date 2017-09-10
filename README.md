@@ -1,5 +1,8 @@
-# weixin-pull-control
-微信下拉控制
+# Intro
+
+> 微信下拉控制，禁用&启用微信下拉效果，如下图所示。
+
+![微信下拉截屏](./docs/img/weixin-pull.jpg =100x100)
 
 # Api
 
