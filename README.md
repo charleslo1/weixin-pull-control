@@ -8,7 +8,7 @@
 # Api
 
 * pullControl.disable()：禁用微信下拉
-* pullControl.disable()：启用微信下拉
+* pullControl.enable()：启用微信下拉
 
 
 # Install
