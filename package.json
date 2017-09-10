@@ -1,0 +1,33 @@
+{
+  "name": "weixin-pull-control",
+  "version": "1.0.0",
+  "description": "weixin pull control",
+  "main": "index.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charleslo1/weixin-pull-control.git"
+  },
+  "keywords": [
+    "pull"
+  ],
+  "author": "Charles Lo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charleslo1/weixin-pull-control/issues"
+  },
+  "homepage": "https://github.com/charleslo1/weixin-pull-control#readme",
+  "devDependencies": {
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-html": "^3.2.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-webserver": "^0.9.1"
+  }
+}
