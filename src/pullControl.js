@@ -20,7 +20,6 @@ function touchmoveHanlder (event) {
 
   if (document.body.scrollTop === 0 && (touch.pageY > startY)) {
     event.preventDefault()
-    event.stopPropagation()
   }
 }
 
