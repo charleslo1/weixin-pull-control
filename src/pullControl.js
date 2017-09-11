@@ -7,7 +7,7 @@ var startY = 0
  * @param  {Object} event 事件对象
  */
 function touchstartHanlder (event) {
-  let touch = event.touches[0]
+  var touch = event.touches[0]
   startY = touch.pageY
 }
 
@@ -16,7 +16,7 @@ function touchstartHanlder (event) {
  * @param  {Object} event 事件对象
  */
 function touchmoveHanlder (event) {
-  let touch = event.touches[0]
+  var touch = event.touches[0]
 
   if (document.body.scrollTop === 0 && (touch.pageY > startY)) {
     event.preventDefault()
