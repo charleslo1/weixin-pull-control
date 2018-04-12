@@ -17,8 +17,9 @@ function touchstartHanlder (event) {
  */
 function touchmoveHanlder (event) {
   var touch = event.touches[0]
+  var scrollTop = (document.scrollingElement || document.firstElementChild || document.body).scrollTop
 
-  if (document.body.scrollTop === 0 && (touch.pageY > startY)) {
+  if (scrollTop === 0 && (touch.pageY > startY)) {
     event.preventDefault()
   }
 }
@@ -32,8 +33,8 @@ var pullControl = {
    * 禁用下拉
    */
   disable: function () {
-    window.addEventListener('touchstart', touchstartHanlder)
-    window.addEventListener('touchmove', touchmoveHanlder)
+    window.addEventListener('touchstart', touchstartHanlder, { passive: false })
+    window.addEventListener('touchmove', touchmoveHanlder, { passive: false })
   },
 
   /**

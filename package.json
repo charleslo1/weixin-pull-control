@@ -1,6 +1,6 @@
 {
   "name": "weixin-pull-control",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "weixin pull control",
   "main": "index.js",
   "scripts": {
